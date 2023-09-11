@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0baf7e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+
+    li {
+        float: left;
+        border-right: 1px solid #bbb;
+        }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+    li a:hover {
+        background-color: #0ce68b;
+                }
+    .active {
+        background-color: #2d7730;
+            }
+
+            .zoom {
+                padding: 50px;
+
+                transition: transform .2s; /* Animation */
+                width: 200px;
+                height: 200px;
+                margin: 0 auto;
+                    }
+        
+                .zoom:hover {
+                transform: scale(1.5);
+                            }
+                .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                        }      
